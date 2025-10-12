@@ -46,7 +46,7 @@ class DoublyLinkedList {
 
 const name = new DoublyLinkedList();
 const data = "MOUNIKA";
-for (let char of data) {
+for (let ch of data) {
   name.insertChar(ch);
 }
 
