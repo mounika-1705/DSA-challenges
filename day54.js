@@ -44,13 +44,11 @@ class Parentheses {
         }
       }
     }
-
     return this.stack.isEmpty() ? "Valid" : "Invalid";
   }
 }
 
 const check = new Parentheses();
-
 console.log(check.isValid("()[]{}"));   
 console.log(check.isValid("(]"));       
 console.log(check.isValid("{[()]}"));   
