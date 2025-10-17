@@ -24,7 +24,6 @@ class Decoder {
         currentStr += char;
       }
     }
-
     return currentStr;
   }
 }
