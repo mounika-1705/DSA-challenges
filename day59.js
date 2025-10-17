@@ -64,5 +64,5 @@ console.log("original output:");
 myQueue.printQueue();
 const k = 3;
 reverseK(myQueue, k);
-console.log(`\n "reversed output:"`);
+console.log(`\nreversed output:`);
 myQueue.printQueue();
