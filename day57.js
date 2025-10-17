@@ -1,11 +1,11 @@
 class Decoder {
-  decode(s) {
+  decode(str) {
     let numberStack = [];    
     let stringStack = [];     
     let currentStr = "";   
     let currentNum = 0;    
 
-    for (let char of s) {
+    for (let char of str) {
       if (!isNaN(char)) {
         currentNum = currentNum * 10 + Number(char); 
       } 
