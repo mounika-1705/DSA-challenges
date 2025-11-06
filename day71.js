@@ -34,7 +34,7 @@ function solveNQueens(N) {
     }
   }
 
-  placeQueen(q);
+  placeQueen(0);
 
   result.forEach((solution, index) => {
     console.log(`Solution ${index + 1}:`);
