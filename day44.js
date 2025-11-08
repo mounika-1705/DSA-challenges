@@ -1,3 +1,44 @@
+// 🚀 Day 44 - DSA Challenge
+
+// Hey Students
+
+// 💡 Today’s Challenge  Music Playlist (Circular Linked List) 
+
+// 👉 Requirements:
+// 1. Add Song at End → Insert a new song into the playlist (end of list).
+// 2. Add Song at Beginning → Insert a new song at the start of the playlist.
+// 3. Show Playlist → Traverse once and print all songs in the playlist order.
+// 4. Play Songs in Loop → Traverse circularly and print the first k songs being played in order.
+
+// ⚡ Input Example
+
+// AddSong "Shape of You" at end  
+// AddSong "Believer" at end  
+// AddSong "Senorita" at beginning  
+// ShowPlaylist  
+// PlaySongs k=5
+
+
+// ✅ Expected Output
+
+// Senorita -> Shape of You -> Believer  
+// Playing: Senorita  
+// Playing: Shape of You  
+// Playing: Believer  
+// Playing: Senorita  
+// Playing: Shape of You
+
+
+// 🔎 Hints
+
+// 1. Remember: in circular linked list, last node points  back to head.
+
+// 2. Be careful with traversal → stop after one round for ShowPlaylist, but continue for k iterations when simulating playback.
+
+// 3. Handle the empty playlist case properly.
+
+
+
 class Song {
   constructor(name) {
     this.name = name;

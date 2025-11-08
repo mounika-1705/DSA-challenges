@@ -1,3 +1,32 @@
+// 🚀 Day 28 - DSA Challenge 
+
+// 📌 Topic: Linked List
+
+// You are given a singly linked list representing roll numbers of students. Implement the following rules:
+
+// Insert a new student roll number at any given position.
+
+// If position = 1 → insert at head.
+
+// If position = length+1 → insert at tail.
+
+// Otherwise → insert at that middle position.
+
+// If the given position is invalid (<1 or > length+1), print "Invalid Position".
+
+// If the roll number already exists, print "Duplicate Entry Not Allowed".
+
+// After successful insertion, print the linked list.
+
+// Example:
+// Input: 1 -> 2 -> 4 -> 5, Insert 3 at position 3
+// Output:
+// 1 -> 2 -> 3 -> 4 -> 5
+
+
+
+
+
 class Node {
     constructor(data) {
         this.data = data;

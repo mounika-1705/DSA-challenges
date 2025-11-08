@@ -1,3 +1,37 @@
+// 🚀 Day 47 - DSA Challenge
+
+// 💡 Today’s Challenge - Modify Circular Linked List (Insertion, Deletion & Traversal)
+
+// Imagine you’re maintaining a circular list of process IDs in an operating system scheduler. The list must always remain sorted for efficient scheduling. You need to support the following operations:
+
+// 👉 Requirements:
+// 1. insert(value) → Insert a new process ID into the list in sorted order.
+// 2. delete(value) → Remove one occurrence of a given process ID if it exists.
+// 3. traverse() → Display all process IDs in the scheduler by traversing the circular list once.
+
+// ⚡ Input Example
+
+// insert(3)  
+// insert(1)  
+// insert(2)  
+// traverse()  
+// insert(0)  
+// traverse()  
+// delete(2)  
+// traverse()  
+// delete(5)  
+// traverse()  
+
+
+// ✅ Expected Output
+
+// [1, 2, 3]  
+// [0, 1, 2, 3]  
+// [0, 1, 3]  
+// [0, 1, 3]   // unchanged since 5 not found
+// 
+
+
 class Node {
   constructor(data) {
     this.data = data;

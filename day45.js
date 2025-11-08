@@ -1,3 +1,43 @@
+// 🚀 Day 45 - DSA Challenge
+
+// Hey Students 
+
+// Welcome to Day 45 of your DSA journey!
+// You’ve already explored circular linked lists with schedulers and playlists. Today, let’s tackle a slightly more complex real-world problem using insertion and traversal.
+
+// 💡 Today’s Challenge - Circular Queue of Printers 
+
+// Imagine you’re designing a Printer Queue System for an office. Multiple printers are connected in a circular network, and print jobs are assigned in a round-robin fashion.
+
+// 👉 Requirements:
+// 1. AddPrinter → Insert a new printer into the circular queue (end of list).
+// 2. ShowPrinters → Traverse once and print all printers in the queue.
+// 3. AssignJobs(k) → Simulate job assignment for k jobs in round-robin order (traverse circularly k times and print the printer assigned each job).
+
+// ⚡ Input Example
+// AddPrinter "Printer1"  
+// AddPrinter "Printer2"  
+// AddPrinter "Printer3"  
+// ShowPrinters  
+// AssignJobs k=7  
+
+// ✅ Expected Output
+// Printer1 -> Printer2 -> Printer3  
+// Job assigned to: Printer1  
+// Job assigned to: Printer2  
+// Job assigned to: Printer3  
+// Job assigned to: Printer1  
+// Job assigned to: Printer2  
+// Job assigned to: Printer3  
+// Job assigned to: Printer1  
+
+// 🔎 Hints
+// * Use circular traversal for assigning jobs.
+// * When k is larger than the number of printers, wrap around using the circular property.
+// * Edge case: If no printers are available, handle gracefully.
+
+
+
 class Node {
   constructor(data) {
     this.data = data;

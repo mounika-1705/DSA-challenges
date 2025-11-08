@@ -1,3 +1,40 @@
+// 🚀 Day 48 - DSA Challenge
+
+// Welcome to Day 48 of your DSA journey!
+
+// 💡 Today’s Challenge - Round Table Meeting Simulation 
+
+// Imagine you’re simulating a Round Table Meeting where each participant is seated in a circular manner. The order is maintained using a Circular Linked List.
+
+// 👉 Requirements:
+// 1. addParticipant(name) → Insert a new participant at the end of the round table.
+// 2. removeParticipant(name) → Remove a participant by their name (if they exist).
+// 3. showParticipants() → Traverse the circular table once and display all participants.
+// 4. skipAndSelect(k) → Starting from the current participant, move k steps forward and print the selected participant’s name (like passing a mic in the meeting).
+
+// ⚡ Input Example
+
+// addParticipant("Alice")  
+// addParticipant("Bob")  
+// addParticipant("Charlie")  
+// addParticipant("Diana")  
+// showParticipants()  
+// skipAndSelect(3)  
+// removeParticipant("Charlie")  
+// showParticipants()  
+// skipAndSelect(4)  
+
+
+// ✅ Expected Output
+
+// Alice -> Bob -> Charlie -> Diana  
+// Selected: Diana  
+// Alice -> Bob -> Diana  
+// Selected: Bob
+
+
+
+
 class Node {
   constructor(name) {
     this.name = name;

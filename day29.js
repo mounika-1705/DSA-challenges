@@ -1,3 +1,35 @@
+// 📢 Day 29 - DSA Challenge
+
+// Hey Students 
+
+// Today’s challenge is all about Linked Lists. You have already practiced insertion now let’s go one step ahead 🚀
+
+// Problem Statement
+
+// Implement a Linked List with the following operations:
+// 1. Insert a node at any given position
+// 2. Delete a node from any given position
+// 3. Print the entire linked list
+
+// 🔹 Input Example:
+// Insert 10 at position 1  
+// Insert 20 at position 2  
+// Insert 30 at position 2  
+// Delete node at position 1
+// Print Linked List
+
+// 🔹 Output Example:
+// 20 -> 30
+
+// ⚡ Hint:
+
+// Handle edge cases properly (inserting at head, deleting last element, invalid positions).
+
+// Think about how next pointers will change when you insert/delete.
+
+
+
+
 class Node {
   constructor(data) {
     this.data = data;

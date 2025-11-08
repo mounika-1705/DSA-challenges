@@ -1,3 +1,31 @@
+// ✅ Day 27 DSA Challenge
+
+// 📌 Challenge: Insertions in Singly Linked List
+
+// You are given a singly linked list. Implement the following operations:
+
+// Insert at Head → Add a new node at the beginning.
+
+// Insert at Tail → Add a new node at the end.
+
+// Insert at Position → Add a new node at a given 1-based position pos.
+
+// Constraints & Edge Cases:
+
+// If pos = 1, insertion happens at the head.
+
+// If pos = length + 1, insertion happens at the tail.
+
+// If pos > length + 1, show "Invalid Position".
+
+// 📥 Input / Operations:
+// Start with an empty linked list and perform a sequence of insertions.
+
+// 📤 Output:
+// Print the linked list after each operation in the format:
+// data1 -> data2 -> data3 -> null
+
+
 class Node {
     constructor(data) {
         this.data = data;

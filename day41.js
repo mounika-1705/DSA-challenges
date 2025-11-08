@@ -1,3 +1,42 @@
+// 🚀 Day 41 - DSA Challenge
+
+// Hey Students 
+
+// Welcome to Day 41 of your DSA journey! 
+// Today, we’re stepping into Circular Linked Lists (CLL) a powerful variation of linked lists where the last node points back to the head, forming a circle.
+
+// 💡 Today’s Challenge - Circular Queue of Players 
+
+// Imagine you’re designing a Game Queue System where players are arranged in a circle. This allows the game to cycle through players endlessly.
+
+// 👉 Requirements:
+// 1. Insert Player at End → Add a new player at the end of the circle.
+// 2. Insert Player at Beginning → Add a new player at the start of the circle.
+// 3. Traverse Forward → Print the players in circular order (stop once you complete one full cycle).
+// 4. Traverse Multiple Rounds → Print players for k rounds to simulate the game cycling.
+
+// ⚡ Input Example
+
+// InsertEnd "Alice"  
+// InsertEnd "Bob"  
+// InsertEnd "Charlie"  
+// InsertBeginning "Zara"  
+// TraverseForward  
+// TraverseRounds 2  
+
+
+// ✅ Expected Output
+
+// Zara → Alice → Bob → Charlie  
+// Zara → Alice → Bob → Charlie → Zara → Alice → Bob → Charlie  
+
+// 💡 Hints:
+// * In CLL, tail.next = head.
+// * Be careful while traversing stop when you reach the head again (to avoid infinite loops).
+// * For multiple rounds, you can keep looping until you’ve printed k * size elements.
+
+
+
 class Node {
   constructor(data) {
     this.data = data;

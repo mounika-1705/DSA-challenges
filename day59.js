@@ -1,3 +1,37 @@
+// 🚀 Day 59: DSA Challenge - Reverse First K Elements of a Queue
+// Problem Statement
+
+// Given an integer K and a Queue of integers, your task is to reverse the first K elements of the queue while leaving the other elements in the same relative order.
+
+// 🔹 Example
+// Input:
+// Queue: [10, 20, 30, 40, 50]
+// K = 3
+
+// Output:
+// [30, 20, 10, 40, 50]
+
+// Explanation:
+// * The first 3 elements (10, 20, 30) are reversed → [30, 20, 10]
+// * The remaining elements (40, 50) stay as they are.
+
+// ✅ Requirements
+// * Use a queue data structure.
+// * You may use an auxiliary stack to help with reversal.
+// * The final order of the queue should maintain the correct relative order for elements beyond the first K.
+
+// Handle edge cases:
+// * K = 0 (no change)
+// * K > size of queue (reverse entire queue)
+// * Empty queue
+
+// Hints
+// * Dequeue the first K elements and push them into a stack.
+// * Pop all elements from the stack and enqueue them back (this reverses them).
+// * Move the remaining (n - K) elements from front to rear to maintain order.
+
+
+
 class Queue {
   constructor() {
     this.items = [];

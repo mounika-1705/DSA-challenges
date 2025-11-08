@@ -1,3 +1,34 @@
+// 🚀 Day 31 – DSA Challenge
+
+// Hey Students 
+
+// DSA Challenge Resumes
+
+// Welcome to Day 31 of our DSA challenge streak! 
+// You’re not just learning DSA  you’re building an engineer’s problem-solving mindset step by step. Keep the energy high .
+
+// 💡 Today’s Challenge - Linked List Deletion by Value & Position
+
+// Implement the following operations on a Singly Linked List:
+
+// 1️⃣ Insert a node at the end
+// 2️⃣ Insert a node at the beginning
+// 3️⃣ Delete a node by value (delete the first occurrence of the given value)
+// 4️⃣ Delete a node at a given position (1-based index)
+
+// Input Example:
+
+// Insert 10 at end  
+// Insert 20 at end  
+// Insert 30 at end  
+// Insert 5 at beginning  
+// Delete node with value 20  
+// Delete node at position 2  
+// Print Linked List
+
+
+
+
 class Node {
     constructor(data) {
         this.data = data;

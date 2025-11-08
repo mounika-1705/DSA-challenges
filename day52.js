@@ -1,3 +1,33 @@
+// 🚀 Day 52 - DSA Challenge
+
+// Hey Students 
+
+// Welcome to Day 52 of your DSA journey!
+// Today’s problem is a fun, interview-style challenge using Doubly Linked Lists.
+
+// 💡 Today’s Challenge - Reverse a Name using Doubly Linked List 
+
+// Imagine you are storing a person’s name in a Doubly Linked List, where each character is stored as a node. Your task is to print the name in reverse by traversing backward.
+
+// 👉 Requirements:
+// 1. Insert each character of the name into a Doubly Linked List.
+// 2. Traverse forward to print the name normally.
+// 3. Think of how you can reverse name in Doubly 
+
+// ⚡ Input Example
+
+// Name: "ASIA"
+
+
+// ✅ Expected Output
+
+// Forward Traversal: A -> S -> I -> A
+// Backward Traversal: A -> I -> S -> A
+
+
+
+
+
 class Node {
   constructor(char) {
     this.char = char;

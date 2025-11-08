@@ -1,3 +1,35 @@
+// 🚀 Day 42 - DSA Challenge
+
+// Hey Students 
+
+// Welcome to Day 42 of your DSA journey!
+// Today, let’s work on a problem that combines circular linked list, insertion, and traversal you’ll need to maintain sorted order and correctly handle the circular structure.
+
+// 💡 Challenge - Insert into a Sorted Circular Linked List
+
+// 👉 Requirements:
+// * Given a sorted circular linked list, implement a function insert(head, insertVal) which inserts insertVal in the right position so the list stays sorted.
+// * If the list is empty (head is null), create a new node with insertVal that points to itself.
+// * After inserting, traverse the full circular list from the insertion point (or any reference point) to print all the node values in order until you come back to the starting node.
+
+// ⚡ Input Example:
+
+// Let the existing circular list be: 1 → 3 → 4 → 1 (circular)
+
+// Insert 2  
+// Traverse from head (head could be node with value 3 or 1)  
+
+
+// ✅ Expected Output:
+
+// 1 → 2 → 3 → 4 → 1  (print until coming back to start)
+
+// Or (if starting from node 3):
+
+// 3 → 4 → 1 → 2 → 3
+
+
+
 class Node {
   constructor(data) {
     this.data = data;

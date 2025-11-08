@@ -1,3 +1,40 @@
+// 🚀 Day 51 - DSA Challenge
+
+// Hey Students 
+
+// Welcome to Day 52 of your DSA journey!
+// Today’s problem is another interview classic that builds your pointer skills and problem-solving intuition.
+
+// 💡 Today’s Challenge - Find the Middle of a Linked List
+
+// 👉 Requirements:
+// 1. Given a singly linked list, write a function findMiddle(head) that returns the value of the middle node.
+// 2. If the list has even number of nodes, return the second middle node (standard interview convention).
+// 3. Make sure the solution runs in O(n) time and uses O(1) extra space.
+
+// ⚡ Input Example
+
+// Linked List: 1 -> 2 -> 3 -> 4 -> 5
+
+// ✅ Expected Output
+
+// Middle Node: 3
+
+// ⚡ Input Example 2
+
+// Linked List: 10 -> 20 -> 30 -> 40 -> 50 -> 60
+
+
+// ✅ Expected Output
+
+// Middle Node: 40
+
+// 🔎 Hint:
+// * Use the slow & fast pointer approach:
+// * Move slow by 1 step, fast by 2 steps.
+// * When fast reaches the end, slow will be at the middle.
+
+
 class Node {
     constructor(value) {
         this.value = value;

@@ -1,3 +1,26 @@
+// ✅ Day 26 DSA Challenge
+
+// 📌 Challenge: Linked List Insertions
+
+// You are given a singly linked list. Implement the following operations:
+
+// Insert at Head → Add a new node at the beginning of the list.
+
+// Insert at Tail → Add a new node at the end of the list.
+
+// Insert at Position → Add a new node at a given 1-based position pos.
+
+// If pos = 1, insert at the head.
+
+// If pos = length + 1, insert at the tail.
+
+// If pos is greater than the length + 1, handle it gracefully.
+
+// 🔹 After performing the operations, print the linked list in the format:
+// data1 -> data2 -> data3 -> null
+
+
+
 class Node {
     constructor(data) {
         this.data = data;

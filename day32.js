@@ -1,3 +1,40 @@
+// 🚀 Day 32 - DSA Challenge
+
+// Hey Students 
+
+// Welcome to Day 32 of your DSA journey! 
+// 💡 Today’s Challenge - Browser History with Singly Linked List
+
+// 👉 Requirements:
+// 1️⃣ Visit a new URL → Insert at the end.
+// 2️⃣ Go back → Move one step backward (but remember, in singly linked list you can’t directly go back think how you’ll handle this).
+// 3️⃣ Go forward → Move one step forward in the list.
+// 4️⃣ Show current page → Print the current node’s value.
+
+// ⚡ Input Example
+// Visit google.com  
+// Visit github.com  
+// Visit linkedin.com  
+// Back  
+// Forward  
+// Visit stackoverflow.com  
+// Show Current Page
+
+// ✅ Expected Output
+// google.com  
+// github.com  
+// linkedin.com  
+// github.com  
+// linkedin.com  
+// stackoverflow.com  
+// stackoverflow.com
+
+//  Hint:
+// 1. In a singly linked list, you can’t move backward directly.
+// 2. To implement Back, you may need to traverse from the head each time until you reach the previous node.
+
+
+
 class Node {
     constructor(url) {
         this.url = url;

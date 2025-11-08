@@ -1,3 +1,32 @@
+// 🚀 Day 63 - DSA Challenge
+
+// Problem: Check if Two Arrays are Equal or Not (using Hashing)
+
+// Problem Statement:
+// Given two arrays A and B of the same size N, check whether both arrays are equal or not.
+// Two arrays are considered equal if both contain the same elements with the same frequency, though the order may differ.
+
+// Example:
+
+// Input:  
+// A = [1, 2, 5, 4, 0]  
+// B = [2, 4, 5, 0, 1]
+
+// Output:  
+// Yes
+
+// Input:  
+// A = [1, 2, 5]  
+// B = [2, 4, 15]
+
+// Output:  
+// No
+
+// Hint:
+// Use a hash map (object in JS) to count the frequency of each element in both arrays and then compare the maps.
+
+
+
 function Equality(arr1, arr2) {
   if (arr1.length !== arr2.length) {
     return "No";

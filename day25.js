@@ -1,3 +1,37 @@
+// ✅ Day 25 DSA Challenge
+
+// 📌 Problem Statement:
+// Today’s task is to implement insertion operations in a Singly Linked List.
+// You need to write functions for the following:
+
+// Insert at Head – Add a new node at the beginning of the linked list.
+
+// Insert at Tail – Add a new node at the end of the linked list.
+
+// Insert at Position – Add a new node at a given position (index-based).
+
+// 📥 Input / Operations:
+
+// Start with an empty linked list.
+
+// Perform the above insert operations.
+
+// Print the list after each operation.
+
+// 📤 Output:
+
+// The final linked list after all operations.
+
+// Example:
+
+// Insert 10 at head → List: 10 -> null
+// Insert 20 at tail → List: 10 -> 20  -> null
+// Insert 15 at position 2 → List: 10 -> 15 -> 20 -> null
+
+
+
+
+
 class Node {
     constructor(data) {
         this.data = data;

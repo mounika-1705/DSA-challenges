@@ -1,3 +1,41 @@
+// 🚀 Day 49 - DSA Challenge
+
+// Hey Students 
+
+// Welcome to Day 49 of your DSA journey!
+
+// 💡 Today’s Challenge - Carousel Ad Rotation System 
+
+// Imagine you are designing an ad rotation system for a website. Ads are displayed in a loop (after the last ad, the cycle returns to the first). We’ll use a Circular Linked List to manage this.
+
+// 👉 Requirements:
+// 1. addAd(adName) → Insert a new ad at the end of the circular list.
+// 2. removeAd(adName) → Delete the first occurrence of the ad.
+// 3. showAds() → Traverse the list once and display all ads in rotation order.
+// 4. rotateAndShow(k) → Starting from the head ad, rotate k times and show which ad is currently being displayed.
+
+// ⚡ Input Example
+
+// addAd("Nike")  
+// addAd("Adidas")  
+// addAd("Puma")  
+// addAd("Reebok")  
+// showAds()  
+// rotateAndShow(5)  
+// removeAd("Puma")  
+// showAds()  
+// rotateAndShow(3)  
+
+
+// ✅ Expected Output
+
+// Nike -> Adidas -> Puma -> Reebok  
+// Current Ad: Adidas  
+// Nike -> Adidas -> Reebok  
+// Current Ad: Reebok
+
+
+
 class Node {
   constructor(name) {
     this.name = name;

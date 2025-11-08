@@ -1,3 +1,38 @@
+// 🚀 Day 33 - DSA Challenge
+
+// Hey Students 
+
+// Welcome to Day 33 of your DSA journey!
+// You’ve now practiced insertion, deletion, and even simulated browser history. Today, we’ll apply Linked List operations to another real-world scenario.
+
+// 💡 Today’s Challenge – Task Manager with Singly Linked List
+
+// Imagine you’re building a Task Manager App where tasks are stored in a Singly Linked List.
+
+// 👉 Requirements:
+// 1. Add Task at End → Insert a new task at the end of the list.
+// 2. Add Task at Beginning → Insert a new task at the start of the list.
+//    3. Delete Task by Name → Remove the first occurrence of a task by its name.
+//    4. Delete Task by Position → Remove a task at a specific position (1-based index).
+// 5. Show Tasks → Print the current list of tasks.
+
+// ⚡ Input Example
+
+// AddTask “Finish Homework” at end  
+// AddTask “Buy Groceries” at end  
+// AddTask “Morning Workout” at beginning  
+// DeleteTask “Buy Groceries”  
+// DeleteTask at position 2  
+// ShowTasks
+
+// ✅ Expected Output
+
+// Morning Workout → Finish Homework → Buy Groceries  
+// Morning Workout → Finish Homework  
+// Finish Homework
+
+
+
 class Node {
     constructor(task) {
         this.task = task;

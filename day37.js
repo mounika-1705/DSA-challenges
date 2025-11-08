@@ -1,3 +1,53 @@
+// 🚀 Day 37 - DSA Challenge
+
+// Hey Students 
+
+// Welcome to Day 37 of your DSA journey! 
+// By now, you’ve mastered insertions and traversal in Doubly Linked Lists. Today, we take the next step and add deletions, which makes your data structure truly dynamic and complete.
+
+// 💡 Today’s Challenge - Music Playlist Editor (DLL Insertions, Deletions & Traversal) 
+
+// You are designing a Music Playlist App where songs are stored in a Doubly Linked List. Your system should support both insertion and deletion operations, while allowing traversal in both directions.
+
+// 👉 Requirements:
+// 1. Add Song at Head → Insert a new song at the beginning.
+// 2. Add Song at Tail → Insert a new song at the end.
+// 3. Add Song at Index → Insert a song at a specific position (0-based index).
+// 4. Delete Song at Head → Remove the first song.
+// 5. Delete Song at Tail → Remove the last song.
+// 6. Delete Song at Index → Remove the song at a specific position.
+// 7. Show Playlist Forward → Traverse from head to tail.
+// 8. Show Playlist Backward → Traverse from tail to head.
+
+// ⚡ Input Example
+
+// AddAtHead "SongA"  
+// AddAtTail "SongB"  
+// AddAtTail "SongC"  
+// AddAtIndex 1 "SongX"  
+// ShowForward  
+// DeleteAtIndex 2  
+// ShowForward  
+// ShowBackward  
+// DeleteAtHead  
+// DeleteAtTail  
+// ShowForward
+
+// ✅ Expected Output
+
+// SongA → SongX → SongB → SongC  
+// SongA → SongX → SongC  
+// SongC → SongX → SongA  
+// SongX → SongC  
+// SongX
+
+// 💡 Hint:
+
+// Carefully update both prev and next pointers during deletions.
+
+// Handle edge cases: deleting from an empty list, invalid index, or single-element list.
+
+
 class Node {
   constructor(song) {
     this.song = song;

@@ -1,3 +1,43 @@
+// 🚀 Day 36 - DSA Challenge
+
+// Hey Students 
+
+// Welcome to Day 36 of your DSA journey!
+// Yesterday, you built a Photo Gallery using a Doubly Linked List. Today, let’s level up and design a more general-purpose data structure that you might actually face in coding interviews.
+
+// 💡 Today’s Challenge - Design a Playlist Manager (DLL Insertions & Traversal) 
+
+// You are asked to build a Playlist Manager where songs are stored in a Doubly Linked List. The system should allow insertion at different positions and viewing songs both ways.
+
+// 👉 Requirements:
+// 1. Add Song at Head → Insert a new song at the beginning.
+// 2. Add Song at Tail → Insert a new song at the end.
+// 3. Add Song at Index → Insert a song at a specific position (0-based index).
+// 4. Show Playlist Forward → Print songs from head to tail.
+// 5. Show Playlist Backward → Print songs from tail to head.
+
+// ⚡ Input Example
+
+// AddAtHead "SongA"  
+// AddAtTail "SongB"  
+// AddAtTail "SongC"  
+// AddAtIndex 1 "SongX"  
+// ShowForward  
+// ShowBackward  
+
+
+// ✅ Expected Output
+
+// SongA → SongX → SongB → SongC  
+// SongC → SongB → SongX → SongA  
+
+
+// 💡 Hint:
+// * Inserting at head
+// * Inserting at tail
+// * Inserting in the middle
+
+
 class Node {
   constructor(song) {
     this.song = song;

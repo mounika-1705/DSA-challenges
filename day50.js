@@ -1,3 +1,29 @@
+// 🚀 Day 50 - DSA Challenge
+
+// Hey Students 
+
+// Welcome to Day 50 of your DSA journey!
+
+// 💡 Today’s Challenge - Reverse a Linked List
+
+// Imagine you are building a playlist app or task manager. For certain features, you need to reverse the order of your items efficiently.
+
+// 👉 Requirements:
+// 1. Given a singly linked list, reverse it in-place (without using extra arrays).
+// 2. Implement a function reverseLinkedList(head) that returns the new head after reversal.
+// 3. Traverse the reversed list to display all node values.
+
+// ⚡ Input Example
+
+// Linked List: 1 -> 2 -> 3 -> 4 -> 5
+
+
+// ✅ Expected Output
+
+// Reversed Linked List: 5 -> 4 -> 3 -> 2 -> 1
+
+
+
 class Node {
   constructor(value) {
     this.value = value;

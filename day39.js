@@ -1,3 +1,51 @@
+// 🚀 Day 39 - DSA Challenge
+
+// Hey Students 
+
+// Welcome to Day 39 of your DSA journey!
+
+// 💡 Today’s Challenge - Browser Tabs Manager (DLL Insertions, Deletions & Traversal) 
+
+// Imagine you’re designing a Browser Tabs Manager. Each tab is represented as a node in a Doubly Linked List, allowing quick navigation forward and backward.
+
+// 👉 Requirements:
+// 1. Open New Tab at End → Insert a new tab at the end.
+// 2. Open New Tab at Position → Insert a new tab at a given position (0-based).
+// 3. Close Tab at Position → Delete the tab at a given position.
+// 4. Move Next Tab → Traverse forward by one step.
+// 5. Move Previous Tab → Traverse backward by one step.
+// 6. Show All Tabs Forward → Print tabs left to right.
+// 7. Show All Tabs Backward → Print tabs right to left.
+
+// ⚡ Input Example
+
+// OpenTabEnd "Google"  
+// OpenTabEnd "YouTube"  
+// OpenTabEnd "GitHub"  
+// OpenTabAt 1 "LinkedIn"  
+// ShowForward  
+// CloseTabAt 2  
+// ShowForward  
+// MoveNext  
+// MovePrev  
+// ShowBackward  
+
+
+// ✅ Expected Output
+
+// Google → LinkedIn → YouTube → GitHub  
+// Google → LinkedIn → GitHub  
+// LinkedIn  
+// Google  
+// GitHub → LinkedIn → Google  
+
+// 💡 Hints:
+// * Maintain a currentTab pointer to know where the user is.
+// * For OpenTabAt and CloseTabAt, carefully handle edge cases like position = 0 (head), position = size (tail), or invalid indexes.
+// * Traversal both ways is straightforward with DLL.
+
+
+
 class Node {
   constructor(tab) {
     this.tab = tab;

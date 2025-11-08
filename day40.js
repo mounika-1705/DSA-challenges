@@ -1,3 +1,44 @@
+// 🚀 Day 40 - DSA Challenge
+
+// Hey Students 
+
+// Welcome to Day 40 of your DSA journey!
+
+// 💡 Today’s Challenge - Design Twitter Feed 
+
+// You are asked to design a simplified version of a Twitter feed system, where tweets are stored in a Doubly Linked List.
+
+// 👉 Requirements:
+// 1. Post Tweet (Insert at Head) → Every new tweet appears at the top of the feed.
+// 2. Delete Oldest Tweet (Delete at Tail) → Remove the last tweet when feed gets too long.
+// 3. Delete Tweet at Index → Delete a tweet at a given position (0-based).
+// 4. Show Feed Forward → Print tweets from newest to oldest.
+// 5. Show Feed Backward → Print tweets from oldest to newest.
+
+// ⚡ Input Example
+// PostTweet "Hello"  
+// PostTweet "DSA Day 40"  
+// PostTweet "Linked Lists are fun!"  
+// ShowFeedForward  
+// DeleteAtIndex 1  
+// ShowFeedForward  
+// DeleteOldest  
+// ShowFeedForward  
+// ShowFeedBackward  
+
+// ✅ Expected Output
+
+// Linked Lists are fun! → DSA Day 40 → Hello  
+// Linked Lists are fun! → Hello  
+// Linked Lists are fun! → Hello  
+// Hello → Linked Lists are fun!  
+
+// 💡 Hints:
+// * Use DLL to allow quick insertion at head (new tweets on top).
+// * Use DLL tail to delete the oldest tweet efficiently.
+// * Carefully handle edge cases when deleting head, tail, or invalid positions.
+
+
 class Node {
   constructor(tweet) {
     this.tweet = tweet;
